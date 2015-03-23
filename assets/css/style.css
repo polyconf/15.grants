@@ -245,6 +245,11 @@ body {
     content: "";
     display: table; }
 
+p > a {
+  color: #20b9f1;
+  font-weight: 500;
+  text-decoration: underline; }
+
 .button-container {
   text-align: center; }
 
@@ -676,3 +681,17 @@ nav#overlay {
   left: 50px; }
 #contact #true {
   right: 50px; }
+
+.button-container {
+  text-align: center;
+  padding: 50px 0; }
+  .button-container .button {
+    background: #20b9f1;
+    color: #fff;
+    font-weight: 600;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 20px;
+    line-height: 1em; }
