@@ -23,6 +23,14 @@ body {
 	@include outer-container(1200px);
 }
 
+p > a {
+  
+  color: $blue;
+  font-weight: 500;
+  text-decoration: underline;
+  
+}
+
 .button-container {
 	text-align: center;
 }
@@ -597,7 +605,7 @@ nav#overlay {
 	}
 	
 	#copy, #true {
-		position: absolute;
+		position: absolute; 
 		bottom: 50px;
 		color: $dark;
 		font-size: em(12);
@@ -618,4 +626,26 @@ nav#overlay {
 	}
 
 	
+}
+
+.button-container {
+  
+  text-align: center;
+  padding: 50px 0;
+  
+  .button {
+    
+    background: $blue;
+    color: #fff;
+    font-weight: 600;
+    font-size: em(24);
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 20px;
+    line-height: 1em;
+    
+  }
+  
+  
 }
